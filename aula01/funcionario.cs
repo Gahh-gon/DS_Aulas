@@ -16,8 +16,12 @@ private bool estaNaEmpresa;
 
 
 
- public void  bonifica(Double aumento) {
+ public void bonifica(Double aumento) {
+ 
+ 
 
+
+ 
 
 
  }

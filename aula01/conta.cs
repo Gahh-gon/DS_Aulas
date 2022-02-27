@@ -10,15 +10,19 @@ private double saldo;
 
 private double limite;
 
-public  bool rest;
+
 
 private string nome;
 
 
+private bool res;
+
+public bool saca(double valor ){
 
 
-public void saca(double valor ){
+res = true;
 
+return res;
 
 
 
@@ -26,9 +30,10 @@ public void saca(double valor ){
 public void deposita(double valor){
 
 }
-public void transfere( Conta destino, double valor ){
+public bool transfere( Conta destino, double valor ){
 
-
+res =true;
+return res;
 }
     }
 }
